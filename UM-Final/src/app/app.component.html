@@ -1,0 +1,17 @@
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}">
+          <a [routerLink]="['/dashboard']">Dashboard</a>
+        </li>
+        <li [class.active]="router.isActive('/user')" [routerLinkActive]="['active']" [routerLinkActiveOptions]=" {exact:false}">
+          <a [routerLink]="['/user',1]"> Profile</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="container">
+  <router-outlet></router-outlet>
+</div>

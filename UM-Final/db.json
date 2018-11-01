@@ -1,0 +1,199 @@
+{
+  "locations": [
+    {
+      "id": 1,
+      "street": "4729 calle del barquillo",
+      "city": "orense",
+      "state": "castilla la mancha",
+      "postcode": 37432
+    },
+    {
+      "id": 2,
+      "street": "dovresvingen 3930",
+      "city": "skarde",
+      "state": "finnmark - finnmárku",
+      "postcode": "0060"
+    },
+    {
+      "id": 3,
+      "street": "4865 ronda de toledo",
+      "city": "madrid",
+      "state": "canarias",
+      "postcode": 79960
+    },
+    {
+      "id": 4,
+      "street": "8363 necatibey cd",
+      "city": "ardahan",
+      "state": "çankırı",
+      "postcode": 25303
+    },
+    {
+      "id": 5,
+      "street": "2517 e center st",
+      "city": "adelaide",
+      "state": "tasmania",
+      "postcode": 7163
+    },
+    {
+      "id": 6,
+      "street": "bahnhofstraße 149",
+      "city": "kitzingen",
+      "state": "nordrhein-westfalen",
+      "postcode": 71700
+    },
+    {
+      "id": 7,
+      "street": "2849 hämeentie",
+      "city": "mänttä",
+      "state": "tavastia proper",
+      "postcode": 80333
+    },
+    {
+      "id": 8,
+      "street": "950 richmond park",
+      "city": "portmarnock",
+      "state": "limerick",
+      "postcode": 97635
+    },
+    {
+      "id": 9,
+      "street": "4670 albert road",
+      "city": "clonakilty",
+      "state": "fingal",
+      "postcode": 24518
+    },
+    {
+      "id": 10,
+      "street": "3380 calle de tetuán",
+      "city": "palma de mallorca",
+      "state": "comunidad de madrid",
+      "postcode": 21535
+    }
+  ],
+  "users": [
+    {
+      "title": "mr",
+      "first": "Thomas",
+      "last": "martinez",
+      "email": "ruben.martinez@example.com",
+      "picture": "",
+      "id": 1
+    },
+    {
+      "gender": "male",
+      "title": "mr",
+      "first": "herkus",
+      "last": "styve",
+      "email": "herkus.styve@example.com",
+      "dob": "1958-10-12T20:17:11Z",
+      "phone": "63835413",
+      "cell": "93710313",
+      "id": 2
+    },
+    {
+      "gender": "male",
+      "title": "mr",
+      "first": "cristian",
+      "last": "leon",
+      "email": "cristian.leon@example.com",
+      "dob": "1950-09-11T06:20:58Z",
+      "phone": "920-471-059",
+      "cell": "657-579-235",
+      "id": 3
+    },
+    {
+      "gender": "female",
+      "title": "miss",
+      "first": "afşar",
+      "last": "süleymanoğlu",
+      "email": "afşar.süleymanoğlu@example.com",
+      "dob": "1947-08-09T10:42:06Z",
+      "phone": "(400)-085-0403",
+      "cell": "(555)-123-9645",
+      "id": 4
+    },
+    {
+      "gender": "male",
+      "title": "mr",
+      "first": "thomas",
+      "last": "lopez",
+      "email": "thomas.lopez@example.com",
+      "dob": "1985-06-22T21:57:55Z",
+      "phone": "07-7004-9778",
+      "cell": "0415-007-777",
+      "id": 5
+    },
+    {
+      "gender": "female",
+      "title": "ms",
+      "first": "josefa",
+      "last": "hoppe",
+      "email": "josefa.hoppe@example.com",
+      "dob": "1990-11-09T19:15:18Z",
+      "phone": "0749-1511645",
+      "cell": "0171-4702989",
+      "id": 6
+    },
+    {
+      "gender": "female",
+      "title": "ms",
+      "first": "hilla",
+      "last": "seppala",
+      "email": "hilla.seppala@example.com",
+      "dob": "1996-12-24T00:48:12Z",
+      "phone": "08-398-232",
+      "cell": "043-552-34-76",
+      "id": 7
+    },
+    {
+      "gender": "male",
+      "title": "mr",
+      "first": "maurice",
+      "last": "fox",
+      "email": "maurice.fox@example.com",
+      "dob": "1946-12-21T21:51:57Z",
+      "phone": "041-765-6371",
+      "cell": "081-603-2783",
+      "id": 8
+    },
+    {
+      "gender": "male",
+      "title": "mr",
+      "first": "arnold",
+      "last": "frazier",
+      "email": "arnold.frazier@example.com",
+      "dob": "1965-06-18T13:46:42Z",
+      "phone": "041-954-7366",
+      "cell": "081-898-9652",
+      "id": 9
+    },
+    {
+      "gender": "female",
+      "title": "ms",
+      "first": "pilar",
+      "last": "romero",
+      "email": "pilar.romero@example.com",
+      "dob": "1945-06-07T06:29:17Z",
+      "phone": "940-485-557",
+      "cell": "668-088-019",
+      "id": 10
+    },
+    {
+      "title": "Mr",
+      "first": "Green",
+      "last": "Ward",
+      "email": "green@gmail.com",
+      "picture": "",
+      "id": "jmrjqpd8"
+    },
+    {
+      "title": "Mr",
+      "first": "Anil",
+      "last": "Ambani",
+      "email": "anil@gmail.com",
+      "picture": "",
+      "id": "jmsz3v7o"
+    }
+  ]
+}

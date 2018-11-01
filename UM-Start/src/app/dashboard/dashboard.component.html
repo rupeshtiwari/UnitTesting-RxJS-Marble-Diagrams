@@ -1,0 +1,26 @@
+<div class="container">
+  <form name="form" class="form-group" #f="ngForm" novalidate>
+    <div class="row">
+      <div class="col-xs-6 col-md-4">
+        <div class="input-group">
+          <input type="text" name="txtSearch" class="form-control" placeholder="Search" id="txtSearch" (keyup)="search($event.target.value)" />
+          <div class="input-group-btn">
+            <button class="btn btn-primary" type="submit">
+              <span class="glyphicon glyphicon-search"></span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </form>
+  <div class="alert alert-warning">
+    <a [routerLink]="['/user',0,'edit']" routerLinkActive="router-link-active"> <b>Click here to add new user</b> </a>
+  </div>
+  <ul class="list-group list-group-hover">
+    <li class="list-group-item  list-group-item-action" *ngFor="let user of users">
+      <a [routerLink]="['/user',user.id]" routerLinkActive="router-link-active"> {{user.title}}
+        {{user.first}} {{user.last}}</a>
+    </li>
+  </ul>
+
+</div>
