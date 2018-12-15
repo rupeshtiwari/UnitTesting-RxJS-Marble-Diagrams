@@ -34,52 +34,19 @@ describe('DashboardComponent', () => {
   });
 
   it('should create', () => {
-    expect(component).toBeTruthy();
+
   });
 
   it('can search user by first name', () => {
-    const expected$ = cold('-----a|', { a: [{ first: 'Rupesh' }] });
-    userApi.searchUser = jest.fn(() => expected$);
 
-    component.search('Rupesh');
-    getTestScheduler().flush();
-    expect(component.users).toEqual([{ first: 'Rupesh' }]);
   });
 
   it('RACE CONDITION: can search user by first name', () => {
-    userApi.searchUser = jest.fn(() =>
-      cold('--------a|', { a: [{ first: 'Rupesh' }] })
-    );
 
-    component.search('Rupesh');
-
-    userApi.searchUser = jest.fn(() =>
-      cold('--b|', { b: [{ first: 'Ritesh' }] })
-    );
-
-    component.search('Ritesh');
-
-    getTestScheduler().flush();
-
-    expect(component.users).toEqual([{ first: 'Rupesh' }]);
   });
 
   it('RACE CONDITION FIXED: can search user by first name', () => {
-    userApi.searchUser = jest.fn(() =>
-      cold('--------a|', { a: [{ first: 'Rupesh' }] })
-    );
-
-    component.onKeyUp('Rupesh');
-
-    userApi.searchUser = jest.fn(() =>
-      cold('--b|', { b: [{ first: 'Ritesh' }] })
-    );
-
-    component.onKeyUp('Ritesh');
-
-    getTestScheduler().flush();
-
-    expect(component.users).toEqual([{ first: 'Ritesh' }]);
+   
   });
 });
 

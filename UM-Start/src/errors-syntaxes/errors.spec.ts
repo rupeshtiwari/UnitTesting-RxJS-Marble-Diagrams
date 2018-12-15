@@ -2,22 +2,15 @@ import { cold } from 'jasmine-marbles';
 import { throwError, Observable } from 'rxjs';
 
 describe('error', () => {
-  it('test', () => {
-    const s = throwError('error');
-    expect(s).toBeObservable(cold('#'));
+  it('throwError', () => {
+    
   });
-  it('should work with error with values', () => {
-    const expected = cold('#', {}, new Error('server error'));
-    const result = getData();
+  it('should work with error', () => {
 
-    expect(result).toBeObservable(expected);
   });
 
   it('should work with value and error', () => {
-    const expected = cold('(x#)', { x: 'orange' }, new Error('server error'));
-    const result = getEmployees();
 
-    expect(result).toBeObservable(expected);
   });
 });
 
