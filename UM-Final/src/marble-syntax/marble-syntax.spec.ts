@@ -8,21 +8,20 @@ describe('Marble Syntax', () => {
       const expected = cold('|');
 
       expect(provided).toBeObservable(expected);
-
     });
   });
 
   describe('NEVER', () => {
     it('emits no items and does not terminate', () => {
+
       const provided = NEVER;
       const expected = cold('-');
 
       expect(provided).toBeObservable(expected);
 
-      const expected1 = cold('------');
+      const expected1 = cold ('----');
 
       expect(provided).toBeObservable(expected1);
-      
     });
   });
 });

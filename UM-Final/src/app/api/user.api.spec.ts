@@ -16,23 +16,10 @@ describe('UserApi', () => {
   });
 
   it('userApi is defined', () => {
-    expect(userApi).toBeDefined();
+   
   });
 
   it('can return all users', () => {
-    const usersData = [
-      {
-        title: 'mr',
-        first: 'thomas',
-        last: 'lopez',
-        email: 'thomas.lopez@example.com'
-      }
-    ];
-    const expectedUsers = cold('--a|', { a: usersData });
-    $http.get = jest.fn(() => expectedUsers);
-    const result = userApi.getAllUsers();
 
-    expect(result).toBeObservable(expectedUsers);
-    expect($http.get).toHaveBeenCalledWith('http://localhost:3000/users');
   });
 });

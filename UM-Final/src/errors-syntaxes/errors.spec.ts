@@ -1,23 +1,28 @@
 import { cold } from 'jasmine-marbles';
 import { throwError, Observable } from 'rxjs';
 
-describe('error', () => {
-  it('test', () => {
-    const s = throwError('error');
-    expect(s).toBeObservable(cold('#'));
-  });
-  it('should work with error with values', () => {
-    const expected = cold('#', {}, new Error('server error'));
-    const result = getData();
+describe('Error Handling', () => {
+  it('should have defualt error', () => {
+    const source$ = throwError('error');
+    const expected$ = cold('#', {}, 'error');
 
-    expect(result).toBeObservable(expected);
+    expect(source$).toBeObservable(expected$);
   });
 
-  it('should work with value and error', () => {
-    const expected = cold('(x#)', { x: 'orange' }, new Error('server error'));
-    const result = getEmployees();
+  it('should throw error object', () => {
+    const source$ = getData();
+    const expected$ = cold('#', {}, new Error('server error'));
+    expect(source$).toBeObservable(expected$);
+  });
 
-    expect(result).toBeObservable(expected);
+  it('should give 2 values and then throw error', () => {
+    const source$ = getEmployees();
+    const expected$ = cold(
+      '(xy#)',
+      { x: 'orange', y: 'apple' },
+      new Error('server error')
+    );
+    expect(source$).toBeObservable(expected$);
   });
 });
 
@@ -28,6 +33,7 @@ function getData() {
 function getEmployees() {
   return Observable.create(observer => {
     observer.next('orange');
+    observer.next('apple');
     observer.error(new Error('server error'));
   });
 }
