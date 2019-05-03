@@ -1,6 +1,6 @@
 {
-  "name": "angular-app",
-  "version": "0.0.0",
+  "name": "angular-app-marble-diagrams",
+  "version": "1.0.0",
   "jest": {
     "testEnvironment": "node"
   },
