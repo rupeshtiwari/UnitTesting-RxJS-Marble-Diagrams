@@ -2,31 +2,27 @@
 
 ## Getting started 
 
- - For starting please download the [released zip file](https://github.com/rupeshtiwari/UnitTesting-RxJS-Marble-Diagrams/archive/1.zip)  
+ - For starting please download the [released zip file](https://github.com/rupeshtiwari/UnitTesting-RxJS-Marble-Diagrams/releases/tag/GettingStarted)  
  - Go to `UM-START` folder
- - Delete `package-lock.json` file & `node_modules` folder if exists. 
+ - Delete `package-lock.json` file & `node_modules` folder if they exists. 
  - Open Terminal and run `npm i`
- - Go to the package.json file and replace the test script to 
-  ```
-   "test": "jest -c src/jest.config.js --watchAll --runInBand",
-  ```
+ - To run the angular app please run command `npm start`
+ - To run unit tests please run command `npm test`
 
 ## Still need help
 
-If you find any issue please post a comment to this article [UnitTesting-RxJS-Marble-Diagrams Problem Solver](https://rupeshtiwari.com/unittesting-rxjs-marble-diagrams-problem-solver/)
+If you find any issues please post a comment to this article [UnitTesting-RxJS-Marble-Diagrams Problem Solver](https://rupeshtiwari.com/unittesting-rxjs-marble-diagrams-problem-solver/) and I will reply with any updates to my github repository. 
+Thanks and happy coding :)  
 
+## Repostiory is update
 
-## Info
-Materials for the "Unit Testing RxJS with Marble Diagrams" course on Pluralsight.
-UM-Start: The starter files set up for use in VSCode, WebStorm, or other editors. Use this to code along with the course. (Updated for Angular version 6 or higher)
+✅ Jest Test Cases Are Running
+✅ Typescript v3.2.2
+✅ Angular v7.2.0
+✅ Node v10.15.3
+✅ npm v6.4.1
+✅ `npm start` is working
+✅ `npm test` is working
+✅ `npm run build` is working 
 
-UM-Final: The completed files. Use this to see the completed solution from the course. (Updated for Angular version 6 or higher)
-
-See the README.md file under each folder for details on installing and running the application.
-
-If you have any problems installing or running this code, please see the "Unit Testing RxJS with Marble Diagrams Problem Solver"
-
-If that does not resolve your issue, please post to the discussion board for the course
-
-NOTE: The installation was tested using node v8.10.0 and npm 6.0.1.
 
