@@ -1,7 +1,13 @@
 # Unit Testing RxJS with Marble Diagrams
 
-Materials for the "Unit Testing RxJS with Marble Diagrams" course on Pluralsight.
+## Getting started 
 
+For starting please download the [released zip file](https://github.com/rupeshtiwari/UnitTesting-RxJS-Marble-Diagrams/archive/1.zip) and run `npm install`
+If you find any issue please post a comment to this article [UnitTesting-RxJS-Marble-Diagrams Problem Solver](https://rupeshtiwari.com/unittesting-rxjs-marble-diagrams-problem-solver/)
+
+
+## Info
+Materials for the "Unit Testing RxJS with Marble Diagrams" course on Pluralsight.
 UM-Start: The starter files set up for use in VSCode, WebStorm, or other editors. Use this to code along with the course. (Updated for Angular version 6 or higher)
 
 UM-Final: The completed files. Use this to see the completed solution from the course. (Updated for Angular version 6 or higher)
