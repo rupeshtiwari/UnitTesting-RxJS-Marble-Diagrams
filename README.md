@@ -1,6 +1,29 @@
 # Unit Testing RxJS with Marble Diagrams
 
-## Getting started 
+Welcome to my course [Unit Testing RxJS with Marble Diagrams](https://app.pluralsight.com/library/courses/unit-testing-rxjs-marble-diagrams/table-of-contents). 
+
+## ❓ What is Marble Diagrams
+
+Marble diagrams enables you to understand the behavior of RxJS observables and operators visually. 
+
+## 💼 What will you get out of this course
+
+ ✅ Building blocks of RxJS
+ 
+ ✅ Fundamentals of Hot & Cold Observables
+ 
+ ✅ Marble Diagrams Concept
+ 
+ ✅ Marble Testing Syntaxes
+ 
+ ✅ Introduction to `jasmine-marbles` library
+ 
+ ✅ Unit Testing Observables & Operators using marble diagrams
+ 
+ ✅ Mocking Observables using Marble Testing
+ 
+ 
+## 🕘 Getting started with code
 
  - For starting please download the [released zip file](https://github.com/rupeshtiwari/UnitTesting-RxJS-Marble-Diagrams/releases/tag/GettingStarted)  
  - Go to `UM-START` folder
@@ -9,12 +32,15 @@
  - To run the angular app please run command `npm start`
  - To run unit tests please run command `npm test`
 
-## Still need help
+## 📣 Need help
 
 If you find any issues please post a comment to this article [UnitTesting-RxJS-Marble-Diagrams Problem Solver](https://rupeshtiwari.com/unittesting-rxjs-marble-diagrams-problem-solver/) and I will reply with any updates to my github repository. 
-Thanks and happy coding :)  
+Thanks and happy coding 😃
 
-## Repostiory is update
+## 💯 This Git Repostiory status is uptodate ✔️
+
+I am trying my best to keep this repository live and working. I recently updated this repository to match with latest angular version.
+Also did a quick test everything looks okay. Still if you find any issues please feel free to create issues or post a comment to [UnitTesting-RxJS-Marble-Diagrams Problem Solver](https://rupeshtiwari.com/unittesting-rxjs-marble-diagrams-problem-solver/) article.  
 
 ✅ Jest Test Cases Are Running
 
@@ -33,3 +59,6 @@ Thanks and happy coding :)
 ✅ `npm run build` is working 
 
 
+## Want to Contribute 🙏
+
+I will be happy to take any pull requests that you have to improve this code base. Thanks for your support 🙏 
