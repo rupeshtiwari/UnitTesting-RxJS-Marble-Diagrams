@@ -17,12 +17,19 @@ Thanks and happy coding :)
 ## Repostiory is update
 
 ✅ Jest Test Cases Are Running
+
 ✅ Typescript v3.2.2
+
 ✅ Angular v7.2.0
+
 ✅ Node v10.15.3
+
 ✅ npm v6.4.1
+
 ✅ `npm start` is working
+
 ✅ `npm test` is working
+
 ✅ `npm run build` is working 
 
 
