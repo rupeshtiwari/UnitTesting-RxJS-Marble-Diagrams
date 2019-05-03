@@ -6,6 +6,10 @@
  - Go to `UM-START` folder
  - Delete `package-lock.json` file & `node_modules` folder if exists. 
  - Open Terminal and run `npm i`
+ - Go to the package.json file and replace the test script to 
+   ```
+   "test": "jest -c src/jest.config.js --watchAll --runInBand",
+  ```
 
 ## Still need help
 
