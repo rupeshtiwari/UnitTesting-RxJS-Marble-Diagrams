@@ -2,7 +2,13 @@
 
 ## Getting started 
 
-For starting please download the [released zip file](https://github.com/rupeshtiwari/UnitTesting-RxJS-Marble-Diagrams/archive/1.zip) and run `npm install`
+ - For starting please download the [released zip file](https://github.com/rupeshtiwari/UnitTesting-RxJS-Marble-Diagrams/archive/1.zip)  
+ - Go to `UM-START` folder
+ - Delete `package-lock.json` file & `node_modules` folder if exists. 
+ - Open Terminal and run `npm i`
+
+## Still need help
+
 If you find any issue please post a comment to this article [UnitTesting-RxJS-Marble-Diagrams Problem Solver](https://rupeshtiwari.com/unittesting-rxjs-marble-diagrams-problem-solver/)
 
 
