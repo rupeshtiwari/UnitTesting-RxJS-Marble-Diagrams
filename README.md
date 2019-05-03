@@ -4,23 +4,23 @@ Welcome to my pluralsight course [Unit Testing RxJS with Marble Diagrams](https:
 
 ## ❓ What is Marble Diagrams
 
-Marble diagrams enables you to understand the behavior of RxJS observables and operators visually. 
+Marble diagrams enables you to understand the behavior of RxJS observables and operators visually. It also helps to write unit test for asynchronous code in synchronous manner want to learn more please watch my course till the end. 
 
 ## 💼 What will you get out of this course
 
- ✅ Building blocks of RxJS
- 
- ✅ Fundamentals of Hot & Cold Observables
- 
- ✅ Marble Diagrams Concept
- 
- ✅ Marble Testing Syntaxes
- 
- ✅ Introduction to `jasmine-marbles` library
- 
- ✅ Unit Testing Observables & Operators using marble diagrams
- 
- ✅ Mocking Observables using Marble Testing
+  ✅ Building blocks of RxJS
+
+  ✅ Fundamentals of Hot & Cold Observables
+
+  ✅ Marble Diagrams Concept
+
+  ✅ Marble Testing Syntaxes
+
+  ✅ Introduction to `jasmine-marbles` library
+
+  ✅ Unit Testing Observables & Operators using marble diagrams
+
+  ✅ Mocking Observables using Marble Testing
  
  
 ## 🕘 Getting started with code
@@ -42,21 +42,21 @@ Thanks and happy coding 😃
 I am trying my best to keep this repository live and working. I recently updated this repository to match with latest angular version.
 Also did a quick test everything looks okay. Still if you find any issues please feel free to create issues or post a comment to [UnitTesting-RxJS-Marble-Diagrams Problem Solver](https://rupeshtiwari.com/unittesting-rxjs-marble-diagrams-problem-solver/) article.  
 
-✅ Jest Test Cases Are Running
+ ✅ Jest Test Cases Are Running
 
-✅ Typescript v3.2.2
+ ✅ Typescript v3.2.2
 
-✅ Angular v7.2.0
+ ✅ Angular v7.2.0
 
-✅ Node v10.15.3
+ ✅ Node v10.15.3
 
-✅ npm v6.4.1
+ ✅ npm v6.4.1
 
-✅ `npm start` is working
+ ✅ `npm start` is working
 
-✅ `npm test` is working
+ ✅ `npm test` is working
 
-✅ `npm run build` is working 
+ ✅ `npm run build` is working 
 
 
 ## Want to Contribute 🙏
