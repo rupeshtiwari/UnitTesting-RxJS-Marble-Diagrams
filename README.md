@@ -1,6 +1,6 @@
 # Unit Testing RxJS with Marble Diagrams
 
-Welcome to my course [Unit Testing RxJS with Marble Diagrams](https://app.pluralsight.com/library/courses/unit-testing-rxjs-marble-diagrams/table-of-contents). 
+Welcome to my pluralsight course [Unit Testing RxJS with Marble Diagrams](https://app.pluralsight.com/library/courses/unit-testing-rxjs-marble-diagrams/table-of-contents). 
 
 ## ❓ What is Marble Diagrams
 
