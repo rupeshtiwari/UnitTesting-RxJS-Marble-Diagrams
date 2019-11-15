@@ -1,12 +1,28 @@
-# Angular 6 sample app
+# 🌟 Welcome to User Management App
 
-## Getting Started
+This is the final code you will see all of the test cases that I wrote in the pluralsight course is present here.
 
-- git clone https://github.com/roopkt/angular-6-app.git
+## 🏃 Getting Started
 
-- `cd angular-6-app`
-- `npm i`
-- `npm start`
+- Delete `package-lock.json` file & `node_modules` folder if they exists.
+- Open Terminal and run `npm i`
+- To run the angular app please run command `npm start`
+- To run unit tests please run command `npm test`
 
+## 🎓 Versions
 
-- Fake Users from https://randomuser.me/api/?results=10
+- ✅ Angular v8.2.14
+- ✅ Jasmine-Marbles 0.4.1
+- ✅ Typescript v3.4.4
+
+## 💯 Working Status
+
+- ✅ `npm start` is working
+
+- ✅ `npm test` is working
+
+- ✅ `npm run build` is working
+
+## 🙏 This Git Repostiory status is uptodate
+
+I am trying my best to keep this repository live and working. I recently updated this repository to match with latest angular version. Also did a quick test everything looks okay. Still if you find any issues please feel free to create issues or post a comment to UnitTesting-RxJS-Marble-Diagrams Problem Solver article.
