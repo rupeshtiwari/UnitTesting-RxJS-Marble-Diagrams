@@ -1,4 +1,4 @@
-# Angular 6 sample app
+# Angular 7 sample app
 
 ## Getting Started
 
