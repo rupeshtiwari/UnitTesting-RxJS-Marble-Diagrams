@@ -1,12 +1,32 @@
-# Angular 7 sample app
+# Welcome to User Management App
 
 ## Getting Started
 
-- git clone https://github.com/roopkt/angular-6-app.git
+- Delete `package-lock.json` file & `node_modules` folder if they exists.
+- Open Terminal and run `npm i`
+- To run the angular app please run command `npm start`
+- To run unit tests please run command `npm test`
 
-- `cd angular-6-app`
-- `npm i`
-- `npm start`
+## Versions
 
+- ✅ Typescript v3.2.2
 
-- Fake Users from https://randomuser.me/api/?results=10
+- ✅ Angular v7.2.0
+
+- ✅ Node v10.15.3
+
+- ✅ npm v6.4.1
+
+## Working Status
+
+- ✅ Jest Test Cases Are Running
+
+- ✅ npm start is working
+
+- ✅ npm test is working
+
+- ✅ npm run build is working
+
+## ✔️ This Git Repostiory status is uptodate
+
+I am trying my best to keep this repository live and working. I recently updated this repository to match with latest angular version. Also did a quick test everything looks okay. Still if you find any issues please feel free to create issues or post a comment to UnitTesting-RxJS-Marble-Diagrams Problem Solver article.
