@@ -9,23 +9,17 @@
 
 ## Versions
 
-- ✅ Typescript v3.2.2
-
-- ✅ Angular v7.2.0
-
-- ✅ Node v10.15.3
-
-- ✅ npm v6.4.1
+- ✅ Angular v8.2.14
+- ✅ Jasmine-Marbles 0.4.1
+- ✅ Typescript v3.4.4
 
 ## Working Status
 
-- ✅ Jest Test Cases Are Running
+- ✅ `npm start` is working
 
-- ✅ npm start is working
+- ✅ `npm test` is working
 
-- ✅ npm test is working
-
-- ✅ npm run build is working
+- ✅ `npm run build` is working
 
 ## ✔️ This Git Repostiory status is uptodate
 
