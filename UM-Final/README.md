@@ -4,8 +4,9 @@ This is the final code you will see all of the test cases that I wrote in the pl
 
 ## 🏃 Getting Started
 
-- Delete `package-lock.json` file & `node_modules` folder if they exists.
-- Open Terminal and run `npm i`
+- Download or clone this repo in your local machine.
+- Go to `UM-Final` folder
+- Open Command Prompt Terminal or Powershell and run `npm ci`
 - To run the angular app please run command `npm start`
 - To run unit tests please run command `npm test`
 
