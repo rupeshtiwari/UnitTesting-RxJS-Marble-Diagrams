@@ -40,7 +40,7 @@
     "popper.js": "^1.16.0"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "^0.803.19",
+    "@angular-devkit/build-angular": "^15.0.0",
     "@angular/cli": "^8.3.19",
     "@angular/compiler-cli": "^8.2.14",
     "@angular/language-service": "^8.2.14",
